@@ -5,10 +5,10 @@ Ice Sample App for Master/Slave combination where the Master maintains global st
 
 To compile:
 
- g++ -I. -I/path/to/ice/installation/include -c Assign.cpp Master.cpp
- g++ -I. -I/path/to/ice/installation/include -c Assign.cpp Slave.cpp
- g++ -o master Assign.o Master.o -L/path/to/ice/installation/lib -lIce -lIceUtil
- g++ -o slave Assign.o Slave.o -L/path/to/ice/installation/lib -lIce -lIceUtil
+     g++ -I. -I/path/to/ice/installation/include -c Assign.cpp Master.cpp
+     g++ -I. -I/path/to/ice/installation/include -c Assign.cpp Slave.cpp
+     g++ -o master Assign.o Master.o -L/path/to/ice/installation/lib -lIce -lIceUtil
+     g++ -o slave Assign.o Slave.o -L/path/to/ice/installation/lib -lIce -lIceUtil
 
 To run master:
 
